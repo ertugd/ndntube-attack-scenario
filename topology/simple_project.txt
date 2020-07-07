@@ -1,0 +1,17 @@
+router
+
+#node	    		city	y	x	mpi-partition
+legitimate_node1	NA	80	20	1
+malicious_node	NA	60	20	1
+rtr-1		NA	70	40	15
+bb-producer	NA	70	80	3
+
+link
+
+# from	   	     to		capacity	metric	delay	queue
+legitimate_node1    rtr-1	1000Mbps		1	1ms	100
+malicious_node      rtr-1	1000Mbps		1	1ms	100
+bb-producer	    rtr-1	1000Mbps		1	1ms	100
+
+
+

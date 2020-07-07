@@ -1,0 +1,1024 @@
+#current test-bed topology for ndnSIM, converted by Ertugrul DOGRULUK, university of minho
+
+router
+
+#node comment yPos xPos
+
+bb-afa NA  42.1  14.5 
+bb-anyang NA  37.7 127.00 
+bb-arizona NA  32.22896140 -110.94832260
+bb-basel NA  47.55858 7.58360
+bb-bern NA  46.8 8.58360
+bb-bupt  NA  37.40 114.18
+bb-byu  NA  40.14 -111.39
+bb-cagliari  NA  39.1 8.9
+bb-caida  NA  31.87357720 -119.23781110
+bb-coruna  NA  43.3 -8.2
+bb-cnic  NA  40.0 112.0
+bb-copelabs  NA  38.6 -9.0
+bb-csu  NA  40.57471750 -105.08482930
+bb-goettingen  NA  52.05858 9.58360
+bb-indonesia  NA  -6.0 106.8
+bb-kisti  NA  36.0 127.50
+bb-lip6  NA  48.50 1.71
+bb-memphis  NA  35.11860990 -89.93700109999999
+bb-michigan  NA  42.50260390 -83.4
+bb-minho  NA  41.8 -8.2
+bb-msu  NA  17.3 103.7
+bb-mumbai_aws  NA  19.0 73.2
+bb-neu  NA  42.7 -71.08873579999999
+bb-nist  NA  39.14907010 -76.5
+bb-ntnu  NA  63.5 10.5
+bb-osaka  NA  34.72 135.5193
+bb-padua  NA  45.35858 11.78360
+bb-pkusz  NA  23.0 114.0
+bb-remap  NA  34.4 -117.14807210
+bb-srru  NA  15.3 103.7
+bb-systemx  NA  48.71 3.19
+bb-tno  NA  52.05858 4.0
+bb-tongji  NA  31.12 121.30
+bb-uaslp  NA  22.0 -100.5
+bb-uci  NA  33.1495 -118.145798
+bb-ucla  NA  35.5 -120
+bb-ufpa  NA  -3.7 -49.6
+bb-uiuc  NA  40.60260390 -88.23171080000002
+bb-urjc  NA  41.3359 -3.8732
+bb-uum  NA  6.6 100.3
+bb-waseda  NA  35.8092 139.7193
+bb-wu  NA  38.14907010 -90.30334710
+leaf-4626	NA	42.1  14.5
+leaf-11242	NA	42.1  14.5
+leaf-6868	NA	42.1  14.5
+leaf-12512	NA	42.1  14.5
+leaf-12480	NA	42.1  14.5
+leaf-12483	NA	42.1  14.5
+leaf-12486	NA	42.1  14.5
+leaf-12452	NA	42.1  14.5
+leaf-12651	NA	42.1  14.5
+leaf-12473	NA	42.1  14.5
+leaf-12478	NA	37.7 127.00
+leaf-12451	NA	37.7 127.00
+leaf-13118	NA	37.7 127.00
+leaf-13120	NA	37.7 127.00
+leaf-12472	NA	37.7 127.00
+leaf-12471	NA	37.7 127.00
+leaf-12479	NA	37.7 127.00
+leaf-12484	NA	37.7 127.00
+leaf-12488	NA	37.7 127.00
+leaf-12481	NA	37.7 127.00
+leaf-12482	NA	32.22896140 -110.94832260
+leaf-12485	NA	32.22896140 -110.94832260
+leaf-12492	NA	32.22896140 -110.94832260
+leaf-12489	NA	32.22896140 -110.94832260
+leaf-12490	NA	32.22896140 -110.94832260
+leaf-12491	NA	32.22896140 -110.94832260
+leaf-12493	NA	32.22896140 -110.94832260
+leaf-12494	NA	32.22896140 -110.94832260
+leaf-12495	NA	32.22896140 -110.94832260
+leaf-12540	NA	32.22896140 -110.94832260
+leaf-12497	NA	47.55858 7.58360
+leaf-12496	NA	47.55858 7.58360
+leaf-12513	NA	47.55858 7.58360
+leaf-12498	NA	47.55858 7.58360
+leaf-12509	NA	47.55858 7.58360
+leaf-12510	NA	47.55858 7.58360
+leaf-12511	NA	47.55858 7.58360
+leaf-12528	NA	47.55858 7.58360
+leaf-12618	NA	47.55858 7.58360
+leaf-12623	NA	47.55858 7.58360
+leaf-12673	NA	46.8 8.58360
+leaf-12872	NA	46.8 8.58360
+leaf-12508	NA	46.8 8.58360
+leaf-12507	NA	46.8 8.58360
+leaf-12619	NA	46.8 8.58360
+leaf-12873	NA	46.8 8.58360
+leaf-12514	NA	46.8 8.58360
+leaf-12516	NA	46.8 8.58360
+leaf-12515	NA	46.8 8.58360
+leaf-12523	NA	46.8 8.58360
+leaf-12950	NA	37.40 114.18
+leaf-12520	NA	37.40 114.18
+leaf-12522	NA	37.40 114.18
+leaf-12551	NA	37.40 114.18
+leaf-12529	NA	37.40 114.18
+leaf-12538	NA	37.40 114.18
+leaf-12678	NA	37.40 114.18
+leaf-12552	NA	37.40 114.18
+leaf-13092	NA	37.40 114.18
+leaf-12595	NA	37.40 114.18
+leaf-12559	NA	40.14 -111.39
+leaf-12561	NA	40.14 -111.39
+leaf-12562	NA	40.14 -111.39
+leaf-12563	NA	40.14 -111.39
+leaf-12565	NA	40.14 -111.39
+leaf-12566	NA	40.14 -111.39
+leaf-12568	NA	40.14 -111.39
+leaf-12572	NA	40.14 -111.39
+leaf-12575	NA	40.14 -111.39
+leaf-12570	NA	40.14 -111.39
+leaf-12571	NA	39.1 8.9
+leaf-12573	NA	39.1 8.9
+leaf-12579	NA	39.1 8.9
+leaf-12577	NA	39.1 8.9
+leaf-12583	NA	39.1 8.9
+leaf-12581	NA	39.1 8.9
+leaf-12584	NA	39.1 8.9
+leaf-12614	NA	39.1 8.9
+leaf-12587	NA	39.1 8.9
+leaf-12604	NA	39.1 8.9
+leaf-12606	NA	31.87357720 -119.23781110
+leaf-12622	NA	31.87357720 -119.23781110
+leaf-12729	NA	31.87357720 -119.23781110
+leaf-12730	NA	31.87357720 -119.23781110
+leaf-12783	NA	31.87357720 -119.23781110
+leaf-12788	NA	31.87357720 -119.23781110
+leaf-12946	NA	31.87357720 -119.23781110
+leaf-12947	NA	31.87357720 -119.23781110
+leaf-13080	NA	31.87357720 -119.23781110
+leaf-12601	NA	31.87357720 -119.23781110
+leaf-12616	NA	43.3 -8.2
+leaf-12617	NA	43.3 -8.2
+leaf-12696	NA	43.3 -8.2
+leaf-12707	NA	43.3 -8.2
+leaf-12708	NA	43.3 -8.2
+leaf-12709	NA	43.3 -8.2
+leaf-12776	NA	43.3 -8.2
+leaf-12885	NA	43.3 -8.2
+leaf-12952	NA	43.3 -8.2
+leaf-12789	NA	43.3 -8.2
+leaf-12621	NA	40.0 112.0
+leaf-12620	NA	40.0 112.0
+leaf-12625	NA	40.0 112.0
+leaf-12624	NA	40.0 112.0
+leaf-12626	NA	40.0 112.0
+leaf-12627	NA	40.0 112.0
+leaf-12653	NA	40.0 112.0
+leaf-12655	NA	40.0 112.0
+leaf-12643	NA	40.0 112.0
+leaf-12646	NA	40.0 112.0
+leaf-12636	NA	38.6 -9.0
+leaf-12635	NA	38.6 -9.0
+leaf-12642	NA	38.6 -9.0
+leaf-12639	NA	38.6 -9.0
+leaf-12638	NA	38.6 -9.0
+leaf-12648	NA	38.6 -9.0
+leaf-12640	NA	38.6 -9.0
+leaf-12650	NA	38.6 -9.0
+leaf-12644	NA	38.6 -9.0
+leaf-12647	NA	38.6 -9.0
+leaf-12656	NA	40.57471750 -105.08482930
+leaf-12649	NA	40.57471750 -105.08482930
+leaf-12672	NA	40.57471750 -105.08482930
+leaf-12724	NA	40.57471750 -105.08482930
+leaf-12706	NA	40.57471750 -105.08482930
+leaf-12705	NA	40.57471750 -105.08482930
+leaf-12675	NA	40.57471750 -105.08482930
+leaf-12879	NA	40.57471750 -105.08482930
+leaf-12880	NA	40.57471750 -105.08482930
+leaf-13082	NA	40.57471750 -105.08482930
+leaf-12935	NA	52.05858 9.58360
+leaf-12680	NA	52.05858 9.58360
+leaf-12676	NA	52.05858 9.58360
+leaf-12674	NA	52.05858 9.58360
+leaf-12677	NA	52.05858 9.58360
+leaf-12697	NA	52.05858 9.58360
+leaf-12690	NA	52.05858 9.58360
+leaf-12687	NA	52.05858 9.58360
+leaf-12683	NA	52.05858 9.58360
+leaf-12681	NA	52.05858 9.58360
+leaf-12682	NA	-6.0 106.8
+leaf-12688	NA	-6.0 106.8
+leaf-12686	NA	-6.0 106.8
+leaf-12685	NA	-6.0 106.8
+leaf-12684	NA	-6.0 106.8
+leaf-12689	NA	-6.0 106.8
+leaf-12699	NA	-6.0 106.8
+leaf-13052	NA	-6.0 106.8
+leaf-13053	NA	-6.0 106.8
+leaf-13054	NA	-6.0 106.8
+leaf-12700	NA	36.0 127.50
+leaf-12698	NA	36.0 127.50
+leaf-13086	NA	36.0 127.50
+leaf-12701	NA	36.0 127.50
+leaf-12703	NA	36.0 127.50
+leaf-12715	NA	36.0 127.50
+leaf-12716	NA	36.0 127.50
+leaf-12717	NA	36.0 127.50
+leaf-12723	NA	36.0 127.50
+leaf-12718	NA	36.0 127.50
+leaf-12719	NA	48.50 1.71
+leaf-12720	NA	48.50 1.71
+leaf-12721	NA	48.50 1.71
+leaf-12722	NA	48.50 1.71
+leaf-12726	NA	48.50 1.71
+leaf-12725	NA	48.50 1.71
+leaf-12876	NA	48.50 1.71
+leaf-12877	NA	48.50 1.71
+leaf-12908	NA	48.50 1.71
+leaf-12731	NA	48.50 1.71
+leaf-12734	NA	35.11860990 -89.93700109999999
+leaf-12741	NA	35.11860990 -89.93700109999999
+leaf-12743	NA	35.11860990 -89.93700109999999
+leaf-12738	NA	35.11860990 -89.93700109999999
+leaf-12740	NA	35.11860990 -89.93700109999999
+leaf-12739	NA	35.11860990 -89.93700109999999
+leaf-12746	NA	35.11860990 -89.93700109999999
+leaf-12919	NA	35.11860990 -89.93700109999999
+leaf-12742	NA	35.11860990 -89.93700109999999
+leaf-12747	NA	35.11860990 -89.93700109999999
+leaf-12744	NA	42.50260390 -83.4
+leaf-12745	NA	42.50260390 -83.4
+leaf-12748	NA	42.50260390 -83.4
+leaf-12763	NA	42.50260390 -83.4
+leaf-12773	NA	42.50260390 -83.4
+leaf-12951	NA	42.50260390 -83.4
+leaf-13057	NA	42.50260390 -83.4
+leaf-12762	NA	42.50260390 -83.4
+leaf-12960	NA	42.50260390 -83.4
+leaf-12777	NA	42.50260390 -83.4
+leaf-13112	NA	41.8 -8.2
+leaf-12782	NA	41.8 -8.2
+leaf-12775	NA	41.8 -8.2
+leaf-12774	NA	41.8 -8.2
+leaf-13116	NA	41.8 -8.2
+leaf-12781	NA	41.8 -8.2
+leaf-13113	NA	41.8 -8.2
+leaf-12824	NA	41.8 -8.2
+leaf-12878	NA	41.8 -8.2
+leaf-12828	NA	41.8 -8.2
+leaf-12853	NA	17.3 103.7
+leaf-12852	NA	17.3 103.7
+leaf-12883	NA	17.3 103.7
+leaf-12892	NA	17.3 103.7
+leaf-12882	NA	17.3 103.7
+leaf-12862	NA	17.3 103.7
+leaf-12889	NA	17.3 103.7
+leaf-12890	NA	17.3 103.7
+leaf-12893	NA	17.3 103.7
+leaf-12895	NA	17.3 103.7
+leaf-12891	NA	19.0 73.2
+leaf-12902	NA	19.0 73.2
+leaf-12903	NA	19.0 73.2
+leaf-12894	NA	19.0 73.2
+leaf-12896	NA	19.0 73.2
+leaf-12897	NA	19.0 73.2
+leaf-12898	NA	19.0 73.2
+leaf-12899	NA	19.0 73.2
+leaf-12900	NA	19.0 73.2
+leaf-12901	NA	19.0 73.2
+leaf-12917	NA	42.7 -71.08873579999999
+leaf-12916	NA	42.7 -71.08873579999999
+leaf-12915	NA	42.7 -71.08873579999999
+leaf-12911	NA	42.7 -71.08873579999999
+leaf-13083	NA	42.7 -71.08873579999999
+leaf-13084	NA	42.7 -71.08873579999999
+leaf-13085	NA	42.7 -71.08873579999999
+leaf-13089	NA	42.7 -71.08873579999999
+leaf-12924	NA	42.7 -71.08873579999999
+leaf-12925	NA	42.7 -71.08873579999999
+leaf-12927	NA	39.14907010 -76.5
+leaf-12933	NA	39.14907010 -76.5
+leaf-12934	NA	39.14907010 -76.5
+leaf-13087	NA	39.14907010 -76.5
+leaf-13088	NA	39.14907010 -76.5
+leaf-12923	NA	39.14907010 -76.5
+leaf-12930	NA	39.14907010 -76.5
+leaf-12938	NA	39.14907010 -76.5
+leaf-12929	NA	39.14907010 -76.5
+leaf-12926	NA	39.14907010 -76.5
+leaf-13081	NA	63.5 10.5
+leaf-12939	NA	63.5 10.5
+leaf-12943	NA	63.5 10.5
+leaf-12955	NA	63.5 10.5
+leaf-12956	NA	63.5 10.5
+leaf-12957	NA	63.5 10.5
+leaf-12958	NA	63.5 10.5
+leaf-12964	NA	63.5 10.5
+leaf-12959	NA	63.5 10.5
+leaf-12962	NA	63.5 10.5
+leaf-12968	NA	34.72 135.5193
+leaf-12970	NA	34.72 135.5193
+leaf-12972	NA	34.72 135.5193
+leaf-12978	NA	34.72 135.5193
+leaf-12980	NA	34.72 135.5193
+leaf-12982	NA	34.72 135.5193
+leaf-12986	NA	34.72 135.5193
+leaf-12987	NA	34.72 135.5193
+leaf-13056	NA	34.72 135.5193
+leaf-13007	NA	34.72 135.5193
+leaf-13017	NA	45.35858 11.78360
+leaf-13023	NA	45.35858 11.78360
+leaf-13032	NA	45.35858 11.78360
+leaf-13063	NA	45.35858 11.78360
+leaf-13066	NA	45.35858 11.78360
+leaf-13062	NA	45.35858 11.78360
+leaf-13061	NA	45.35858 11.78360
+leaf-13064	NA	45.35858 11.78360
+leaf-13065	NA	45.35858 11.78360
+leaf-13067	NA	45.35858 11.78360
+leaf-13068	NA	23.0 114.0
+leaf-13070	NA	23.0 114.0
+leaf-13069	NA	23.0 114.0
+leaf-13094	NA	23.0 114.0
+leaf-13093	NA	23.0 114.0
+leaf-13079	NA	23.0 114.0
+leaf-13095	NA	23.0 114.0
+leaf-13097	NA	23.0 114.0
+leaf-13098	NA	23.0 114.0
+leaf-13103	NA	23.0 114.0
+leaf-13104	NA	34.4 -117.14807210
+leaf-13102	NA	34.4 -117.14807210
+leaf-13101	NA	34.4 -117.14807210
+leaf-13100	NA	34.4 -117.14807210
+leaf-13105	NA	34.4 -117.14807210
+leaf-13106	NA	34.4 -117.14807210
+leaf-13107	NA	34.4 -117.14807210
+leaf-13109	NA	34.4 -117.14807210
+leaf-13111	NA	34.4 -117.14807210
+leaf-13108	NA	34.4 -117.14807210
+leaf-13119	NA	15.3 103.7
+leaf-13140	NA	15.3 103.7
+leaf-13142	NA	15.3 103.7
+leaf-13143	NA	15.3 103.7
+leaf-13144	NA	15.3 103.7
+leaf-13141	NA	15.3 103.7
+leaf-22972	NA	15.3 103.7
+leaf-22978	NA	15.3 103.7
+leaf-22980	NA	15.3 103.7
+leaf-22982	NA	15.3 103.7
+leaf-22986	NA	48.71 3.19
+leaf-22987	NA	48.71 3.19
+leaf-23056	NA	48.71 3.19
+leaf-23007	NA	48.71 3.19
+leaf-23017	NA	48.71 3.19
+leaf-23023	NA	48.71 3.19
+leaf-23032	NA	48.71 3.19
+leaf-23063	NA	48.71 3.19
+leaf-23066	NA	48.71 3.19
+leaf-23062	NA	48.71 3.19
+leaf-23061	NA	52.05858 4.0
+leaf-23064	NA	52.05858 4.0
+leaf-23065	NA	52.05858 4.0
+leaf-23067	NA	52.05858 4.0
+leaf-23068	NA	52.05858 4.0
+leaf-23070	NA	52.05858 4.0
+leaf-23069	NA	52.05858 4.0
+leaf-23094	NA	52.05858 4.0
+leaf-23093	NA	52.05858 4.0
+leaf-23079	NA	52.05858 4.0
+leaf-23095	NA	31.12 121.30
+leaf-23097	NA	31.12 121.30
+leaf-23098	NA	31.12 121.30
+leaf-23103	NA	31.12 121.30
+leaf-23104	NA	31.12 121.30
+leaf-23102	NA	31.12 121.30
+leaf-23101	NA	31.12 121.30
+leaf-23100	NA	31.12 121.30
+leaf-23105	NA	31.12 121.30
+leaf-23106	NA	31.12 121.30
+leaf-23107	NA	22.0 -100.5
+leaf-23109	NA	22.0 -100.5
+leaf-23111	NA	22.0 -100.5
+leaf-23108	NA	22.0 -100.5
+leaf-23119	NA	22.0 -100.5
+leaf-23140	NA	22.0 -100.5
+leaf-23142	NA	22.0 -100.5
+leaf-23143	NA	22.0 -100.5
+leaf-23144	NA	22.0 -100.5
+leaf-23141	NA	22.0 -100.5
+leaf-33061	NA	33.1495 -118.145798
+leaf-33064	NA	33.1495 -118.145798
+leaf-33065	NA	33.1495 -118.145798
+leaf-33067	NA	33.1495 -118.145798
+leaf-33068	NA	33.1495 -118.145798
+leaf-33070	NA	33.1495 -118.145798
+leaf-33069	NA	33.1495 -118.145798
+leaf-33094	NA	33.1495 -118.145798
+leaf-33093	NA	33.1495 -118.145798
+leaf-33079	NA	33.1495 -118.145798
+leaf-33095	NA	35.5 -120
+leaf-33097	NA	35.5 -120
+leaf-33098	NA	35.5 -120
+leaf-33103	NA	35.5 -120
+leaf-33104	NA	35.5 -120
+leaf-33102	NA	35.5 -120
+leaf-33101	NA	35.5 -120
+leaf-33100	NA	35.5 -120
+leaf-33105	NA	35.5 -120
+leaf-33106	NA	35.5 -120
+leaf-33107	NA	-3.7 -49.6
+leaf-33109	NA	-3.7 -49.6
+leaf-33111	NA	-3.7 -49.6
+leaf-33108	NA	-3.7 -49.6
+leaf-33119	NA	-3.7 -49.6
+leaf-33140	NA	-3.7 -49.6
+leaf-33142	NA	-3.7 -49.6
+leaf-33143	NA	-3.7 -49.6
+leaf-33144	NA	-3.7 -49.6
+leaf-33141	NA	-3.7 -49.6
+leaf-43061	NA	40.60260390 -88.23171080000002
+leaf-43064	NA	40.60260390 -88.23171080000002
+leaf-43065	NA	40.60260390 -88.23171080000002
+leaf-43067	NA	40.60260390 -88.23171080000002
+leaf-43068	NA	40.60260390 -88.23171080000002
+leaf-43070	NA	40.60260390 -88.23171080000002
+leaf-43069	NA	40.60260390 -88.23171080000002
+leaf-43094	NA	40.60260390 -88.23171080000002
+leaf-43093	NA	40.60260390 -88.23171080000002
+leaf-43079	NA	40.60260390 -88.23171080000002
+leaf-43095	NA	41.3359 -3.8732
+leaf-43097	NA	41.3359 -3.8732
+leaf-43098	NA	41.3359 -3.8732
+leaf-43103	NA	41.3359 -3.8732
+leaf-43104	NA	41.3359 -3.8732
+leaf-43102	NA	41.3359 -3.8732
+leaf-43101	NA	41.3359 -3.8732
+leaf-43100	NA	41.3359 -3.8732
+leaf-43105	NA	41.3359 -3.8732
+leaf-43106	NA	41.3359 -3.8732
+leaf-43107	NA	6.6 100.3
+leaf-43109	NA	6.6 100.3
+leaf-43111	NA	6.6 100.3
+leaf-43108	NA	6.6 100.3
+leaf-43119	NA	6.6 100.3
+leaf-43140	NA	6.6 100.3
+leaf-43142	NA	6.6 100.3
+leaf-43143	NA	6.6 100.3
+leaf-43144	NA	6.6 100.3
+leaf-43141	NA	6.6 100.3
+leaf-53107	NA	35.8092 139.7193
+leaf-53109	NA	35.8092 139.7193
+leaf-53111	NA	35.8092 139.7193
+leaf-53108	NA	35.8092 139.7193
+leaf-53119	NA	35.8092 139.7193
+leaf-53140	NA	35.8092 139.7193
+leaf-53142	NA	35.8092 139.7193
+leaf-53143	NA	35.8092 139.7193
+leaf-53144	NA	35.8092 139.7193
+leaf-53141	NA	35.8092 139.7193
+leaf-62972	NA	38.14907010 -90.30334710
+leaf-62978	NA	38.14907010 -90.30334710
+leaf-62980	NA	38.14907010 -90.30334710
+leaf-62982	NA	38.14907010 -90.30334710
+leaf-62986	NA	38.14907010 -90.30334710
+leaf-62987	NA	38.14907010 -90.30334710
+leaf-63056	NA	38.14907010 -90.30334710
+leaf-63007	NA	38.14907010 -90.30334710
+leaf-63017	NA	38.14907010 -90.30334710
+leaf-63023	NA	38.14907010 -90.30334710
+
+
+link
+# Each line should be in the following format (only first two are required, the rest can be omitted)
+# srcNode   dstNode     bandwidth   metric  delay   queue
+# bandwidth: link bandwidth
+# metric: routing metric
+# delay:  link delay
+# queue:  MaxPackets for transmission queue on the link (both directions)
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+
+bb-afa bb-mumbai_aws 100Mbps 1 100ms 100 
+bb-afa bb-bern 100Mbps 1 15ms 100
+bb-afa bb-cagliari 100Mbps 1 25ms 100
+bb-afa bb-padua 100Mbps 1 11ms 100
+bb-afa bb-copelabs 100Mbps 1 36ms 100
+leaf-4626	bb-afa 1000Mbps 1 1ms 100
+leaf-11242	bb-afa 1000Mbps 1 1ms 100
+leaf-6868	bb-afa	1000Mbps 1 1ms 100
+leaf-12512	bb-afa	1000Mbps 1 1ms 100
+leaf-12480	bb-afa	1000Mbps 1 1ms 100
+leaf-12483	bb-afa	1000Mbps 1 1ms 100
+leaf-12486	bb-afa	1000Mbps 1 1ms 100
+leaf-12452	bb-afa	1000Mbps 1 1ms 100
+leaf-12651	bb-afa	1000Mbps 1 1ms 100
+leaf-12473	bb-afa	1000Mbps 1 1ms 100
+bb-anyang bb-tongji 100Mbps 1 54ms 100
+bb-anyang bb-srru 100Mbps 1 57ms 100
+bb-anyang bb-msu 100Mbps 1 70ms 100
+bb-anyang bb-bupt 100Mbps 1 33ms 100
+bb-anyang bb-kisti 100Mbps 1 40ms 100
+bb-anyang bb-waseda 100Mbps 1 40ms 100
+bb-anyang bb-osaka 100Mbps 1 36ms 100
+leaf-12478 bb-anyang 1000Mbps 1 1ms 100
+leaf-12451	bb-anyang 1000Mbps 1 1ms 100
+leaf-13118	bb-anyang 1000Mbps 1 1ms 100
+leaf-13120	bb-anyang 1000Mbps 1 1ms 100
+leaf-12472	bb-anyang 1000Mbps 1 1ms 100
+leaf-12471	bb-anyang 1000Mbps 1 1ms 100
+leaf-12479	bb-anyang 1000Mbps 1 1ms 100
+leaf-12484	bb-anyang 1000Mbps 1 1ms 100
+leaf-12488	bb-anyang 1000Mbps 1 1ms 100
+leaf-12481	bb-anyang 1000Mbps 1 1ms 100
+bb-arizona bb-caida 100Mbps 1 25ms 100
+bb-arizona bb-remap 100Mbps 1 25ms 100
+bb-arizona bb-waseda 100Mbps 1 75ms 100
+bb-arizona bb-byu 100Mbps 1 30ms 100
+bb-arizona bb-uaslp 100Mbps 1 100ms 100
+bb-arizona bb-wu 100Mbps 1 33ms 100
+bb-arizona bb-csu 100Mbps 1 18ms 100
+bb-arizona bb-memphis 100Mbps 1 17ms 100
+leaf-12482	bb-arizona 1000Mbps 1 1ms 100
+leaf-12485	bb-arizona 1000Mbps 1 1ms 100
+leaf-12492	bb-arizona 1000Mbps 1 1ms 100
+leaf-12489	bb-arizona 1000Mbps 1 1ms 100
+leaf-12490	bb-arizona 1000Mbps 1 1ms 100
+leaf-12491	bb-arizona 1000Mbps 1 1ms 100
+leaf-12493	bb-arizona 1000Mbps 1 1ms 100
+leaf-12494	bb-arizona 1000Mbps 1 1ms 100
+leaf-12495	bb-arizona 1000Mbps 1 1ms 100
+leaf-12540	bb-arizona 1000Mbps 1 1ms 100
+bb-basel bb-urjc 100Mbps 1 14ms 100
+bb-basel bb-minho 100Mbps 1 23ms 100
+bb-basel bb-ntnu 100Mbps 1 30ms 100
+bb-basel bb-padua 100Mbps 1 9ms 100
+bb-basel bb-lip6 100Mbps 1 7ms 100
+bb-basel bb-goettingen 100Mbps 1 10ms 100
+bb-basel bb-bern 100Mbps 1 2ms 100
+bb-basel bb-tno 100Mbps 1 14ms 100
+bb-basel bb-systemx 100Mbps 1 9ms 100
+leaf-12497	bb-basel 1000Mbps 1 1ms 100
+leaf-12496	bb-basel 1000Mbps 1 1ms 100
+leaf-12513	bb-basel 1000Mbps 1 1ms 100
+leaf-12498	bb-basel 1000Mbps 1 1ms 100
+leaf-12509	bb-basel 1000Mbps 1 1ms 100
+leaf-12510	bb-basel 1000Mbps 1 1ms 100
+leaf-12511	bb-basel 1000Mbps 1 1ms 100
+leaf-12528	bb-basel 1000Mbps 1 1ms 100
+leaf-12618	bb-basel 1000Mbps 1 1ms 100
+leaf-12623	bb-basel 1000Mbps 1 1ms 100
+bb-bern bb-lip6 100Mbps 1 18ms 100
+leaf-12673	bb-bern 1000Mbps 1 1ms 100
+leaf-12872	bb-bern 1000Mbps 1 1ms 100
+leaf-12508	bb-bern 1000Mbps 1 1ms 100
+leaf-12507	bb-bern 1000Mbps 1 1ms 100
+leaf-12619	bb-bern 1000Mbps 1 1ms 100
+leaf-12873	bb-bern 1000Mbps 1 1ms 100
+leaf-12514	bb-bern 1000Mbps 1 1ms 100
+leaf-12516	bb-bern 1000Mbps 1 1ms 100
+leaf-12515	bb-bern 1000Mbps 1 1ms 100
+leaf-12523	bb-bern 1000Mbps 1 1ms 100
+bb-bupt bb-pkusz 100Mbps 1 54ms 100
+bb-bupt bb-waseda 100Mbps 1 48ms 100
+bb-bupt bb-tongji 100Mbps 1 18ms 100
+bb-bupt bb-srru 100Mbps 1 72ms 100
+bb-bupt bb-indonesia 100Mbps 1 54ms 100
+bb-bupt bb-kisti 100Mbps 1 33ms 100
+bb-bupt bb-cnic 100Mbps 1 10ms 100
+leaf-12950	bb-bupt 1000Mbps 1 1ms 100
+leaf-12520	bb-bupt 1000Mbps 1 1ms 100
+leaf-12522	bb-bupt 1000Mbps 1 1ms 100
+leaf-12551	bb-bupt 1000Mbps 1 1ms 100
+leaf-12529	bb-bupt 1000Mbps 1 1ms 100
+leaf-12538	bb-bupt 1000Mbps 1 1ms 100
+leaf-12678	bb-bupt 1000Mbps 1 1ms 100
+leaf-12552	bb-bupt 1000Mbps 1 1ms 100
+leaf-13092	bb-bupt 1000Mbps 1 1ms 100
+leaf-12595	bb-bupt 1000Mbps 1 1ms 100
+bb-byu bb-csu 100Mbps 1 8ms 100
+bb-byu bb-remap 100Mbps 1 9ms 100
+leaf-12559	bb-byu 1000Mbps 1 1ms 100
+leaf-12561	bb-byu 1000Mbps 1 1ms 100
+leaf-12562	bb-byu 1000Mbps 1 1ms 100
+leaf-12563	bb-byu 1000Mbps 1 1ms 100
+leaf-12565	bb-byu 1000Mbps 1 1ms 100
+leaf-12566	bb-byu 1000Mbps 1 1ms 100
+leaf-12568	bb-byu 1000Mbps 1 1ms 100
+leaf-12572	bb-byu 1000Mbps 1 1ms 100
+leaf-12575	bb-byu 1000Mbps 1 1ms 100
+leaf-12570	bb-byu 1000Mbps 1 1ms 100
+bb-cagliari bb-urjc 100Mbps 1 28ms 100
+bb-cagliari bb-coruna 100Mbps 1 40ms 100
+bb-cagliari bb-padua 100Mbps 1 25ms 100
+bb-cagliari bb-wu 100Mbps 1 100ms 100
+leaf-12571	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12573	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12579	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12577	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12583	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12581	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12584	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12614	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12587	bb-cagliari 1000Mbps 1 1ms 100
+leaf-12604	bb-cagliari 1000Mbps 1 1ms 100
+bb-caida bb-ufpa 100Mbps 1 155ms 100
+bb-caida bb-ucla 100Mbps 1 3ms 100
+bb-caida bb-uci 100Mbps 1 3ms 100
+bb-caida bb-tongji 100Mbps 1 93ms 100
+leaf-12606	bb-caida  1000Mbps 1 1ms 100
+leaf-12622	bb-caida  1000Mbps 1 1ms 100
+leaf-12729	bb-caida  1000Mbps 1 1ms 100
+leaf-12730	bb-caida  1000Mbps 1 1ms 100
+leaf-12783	bb-caida  1000Mbps 1 1ms 100
+leaf-12788	bb-caida  1000Mbps 1 1ms 100
+leaf-12946	bb-caida  1000Mbps 1 1ms 100
+leaf-12947	bb-caida  1000Mbps 1 1ms 100
+leaf-13080	bb-caida  1000Mbps 1 1ms 100
+leaf-12601	bb-caida  1000Mbps 1 1ms 100
+bb-ufpa bb-caida 100Mbps 1 155ms 100
+leaf-33107	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33109	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33111	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33108	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33119	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33140	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33142	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33143	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33144	bb-ufpa 1000Mbps 1 1ms 100
+leaf-33141	bb-ufpa 1000Mbps 1 1ms 100
+bb-coruna bb-urjc 100Mbps 1 17ms 100
+bb-coruna bb-minho 100Mbps 1 27ms 100
+leaf-12616	bb-coruna 1000Mbps 1 1ms 100
+leaf-12617	bb-coruna 1000Mbps 1 1ms 100
+leaf-12696	bb-coruna 1000Mbps 1 1ms 100
+leaf-12707	bb-coruna 1000Mbps 1 1ms 100
+leaf-12708	bb-coruna 1000Mbps 1 1ms 100
+leaf-12709	bb-coruna 1000Mbps 1 1ms 100
+leaf-12776	bb-coruna 1000Mbps 1 1ms 100
+leaf-12885	bb-coruna 1000Mbps 1 1ms 100
+leaf-12952	bb-coruna 1000Mbps 1 1ms 100
+leaf-12789	bb-coruna 1000Mbps 1 1ms 100
+bb-cnic bb-pkusz 100Mbps 1 20ms 100
+bb-cnic bb-osaka 100Mbps 1 45ms 100
+leaf-12621	bb-cnic 1000Mbps 1 1ms 100
+leaf-12620	bb-cnic 1000Mbps 1 1ms 100
+leaf-12625	bb-cnic 1000Mbps 1 1ms 100
+leaf-12624	bb-cnic 1000Mbps 1 1ms 100
+leaf-12626	bb-cnic 1000Mbps 1 1ms 100
+leaf-12627	bb-cnic 1000Mbps 1 1ms 100
+leaf-12653	bb-cnic 1000Mbps 1 1ms 100
+leaf-12655	bb-cnic 1000Mbps 1 1ms 100
+leaf-12643	bb-cnic 1000Mbps 1 1ms 100
+leaf-12646	bb-cnic 1000Mbps 1 1ms 100
+bb-copelabs bb-urjc 100Mbps 1 13ms 100
+bb-copelabs bb-minho 100Mbps 1 4ms 100
+bb-copelabs bb-padua 100Mbps 1 24ms 100
+bb-copelabs bb-lip6 100Mbps 1 22ms 100
+bb-copelabs bb-ufpa 100Mbps 1 145ms 100
+leaf-12636	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12635	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12642	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12639	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12638	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12648	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12640	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12650	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12644	bb-copelabs 1000Mbps 1 1ms 100
+leaf-12647	bb-copelabs 1000Mbps 1 1ms 100
+bb-csu bb-remap 100Mbps 1 16ms 100
+bb-csu bb-kisti 100Mbps 1 106ms 100
+bb-csu bb-michigan 100Mbps 1 15ms 100
+bb-csu bb-ucla 100Mbps 1 16ms 100
+bb-csu bb-uiuc 100Mbps 1 14ms 100
+leaf-12656	bb-csu 1000Mbps 1 1ms 100
+leaf-12649	bb-csu 1000Mbps 1 1ms 100
+leaf-12672	bb-csu 1000Mbps 1 1ms 100
+leaf-12724	bb-csu 1000Mbps 1 1ms 100
+leaf-12706	bb-csu 1000Mbps 1 1ms 100
+leaf-12705	bb-csu 1000Mbps 1 1ms 100
+leaf-12675	bb-csu 1000Mbps 1 1ms 100
+leaf-12879	bb-csu 1000Mbps 1 1ms 100
+leaf-12880	bb-csu 1000Mbps 1 1ms 100
+leaf-13082	bb-csu 1000Mbps 1 1ms 100
+bb-goettingen bb-osaka 100Mbps 1 136ms 100
+bb-goettingen bb-ntnu 100Mbps 1 40ms 100
+bb-goettingen bb-padua 100Mbps 1 14ms 100
+bb-goettingen bb-tno 100Mbps 1 12ms 100
+bb-goettingen bb-systemx 100Mbps 1 10ms 100
+leaf-12935	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12680	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12676	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12674	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12677	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12697	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12690	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12687	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12683	bb-goettingen 1000Mbps 1 1ms 100
+leaf-12681	bb-goettingen 1000Mbps 1 1ms 100
+bb-tno bb-goettingen 100Mbps 1 12ms 100
+leaf-23061	bb-tno 1000Mbps 1 1ms 100
+leaf-23064	bb-tno 1000Mbps 1 1ms 100
+leaf-23065	bb-tno 1000Mbps 1 1ms 100
+leaf-23067	bb-tno 1000Mbps 1 1ms 100
+leaf-23068	bb-tno 1000Mbps 1 1ms 100
+leaf-23070	bb-tno 1000Mbps 1 1ms 100
+leaf-23069	bb-tno 1000Mbps 1 1ms 100
+leaf-23094	bb-tno 1000Mbps 1 1ms 100
+leaf-23093	bb-tno 1000Mbps 1 1ms 100
+leaf-23079	bb-tno 1000Mbps 1 1ms 100
+bb-indonesia bb-waseda 100Mbps 1 49ms 100
+bb-indonesia bb-tongji 100Mbps 1 61ms 100
+bb-indonesia bb-srru 100Mbps 1 32ms 100
+bb-indonesia bb-uum 100Mbps 1 100ms 100
+bb-indonesia bb-kisti 100Mbps 1 150ms 100
+bb-indonesia bb-ufpa 100Mbps 1 200ms 100
+leaf-12682	bb-indonesia 1000Mbps 1 1ms 100
+leaf-12688	bb-indonesia 1000Mbps 1 1ms 100
+leaf-12686	bb-indonesia 1000Mbps 1 1ms 100
+leaf-12685	bb-indonesia 1000Mbps 1 1ms 100
+leaf-12684	bb-indonesia 1000Mbps 1 1ms 100
+leaf-12689	bb-indonesia 1000Mbps 1 1ms 100
+leaf-12699	bb-indonesia 1000Mbps 1 1ms 100
+leaf-13052	bb-indonesia 1000Mbps 1 1ms 100
+leaf-13053	bb-indonesia 1000Mbps 1 1ms 100
+leaf-13054	bb-indonesia 1000Mbps 1 1ms 100
+bb-kisti bb-waseda 100Mbps 1 39ms 100
+leaf-12700	bb-kisti 1000Mbps 1 1ms 100
+leaf-12698	bb-kisti 1000Mbps 1 1ms 100
+leaf-13086	bb-kisti 1000Mbps 1 1ms 100
+leaf-12701	bb-kisti 1000Mbps 1 1ms 100
+leaf-12703	bb-kisti 1000Mbps 1 1ms 100
+leaf-12715	bb-kisti 1000Mbps 1 1ms 100
+leaf-12716	bb-kisti 1000Mbps 1 1ms 100
+leaf-12717	bb-kisti 1000Mbps 1 1ms 100
+leaf-12723	bb-kisti 1000Mbps 1 1ms 100
+leaf-12718	bb-kisti 1000Mbps 1 1ms 100
+bb-waseda bb-kisti 100Mbps 1 39ms 100
+leaf-53107	bb-waseda 1000Mbps 1 1ms 100
+leaf-53109	bb-waseda 1000Mbps 1 1ms 100
+leaf-53111	bb-waseda 1000Mbps 1 1ms 100
+leaf-53108	bb-waseda 1000Mbps 1 1ms 100
+leaf-53119	bb-waseda 1000Mbps 1 1ms 100
+leaf-53140	bb-waseda 1000Mbps 1 1ms 100
+leaf-53142	bb-waseda 1000Mbps 1 1ms 100
+leaf-53143	bb-waseda 1000Mbps 1 1ms 100
+leaf-53144	bb-waseda 1000Mbps 1 1ms 100
+leaf-53141	bb-waseda 1000Mbps 1 1ms 100
+bb-lip6 bb-urjc 100Mbps 1 15ms 100
+bb-lip6 bb-michigan 100Mbps 1 69ms 100
+bb-lip6 bb-ntnu 100Mbps 1 25ms 100
+bb-lip6 bb-tno 100Mbps 1 9ms 100
+bb-lip6 bb-systemx 100Mbps 1 1ms 100
+leaf-12719	bb-lip6 1000Mbps 1 1ms 100
+leaf-12720	bb-lip6 1000Mbps 1 1ms 100
+leaf-12721	bb-lip6 1000Mbps 1 1ms 100
+leaf-12722	bb-lip6 1000Mbps 1 1ms 100
+leaf-12726	bb-lip6 1000Mbps 1 1ms 100
+leaf-12725	bb-lip6 1000Mbps 1 1ms 100
+leaf-12876	bb-lip6 1000Mbps 1 1ms 100
+leaf-12877	bb-lip6 1000Mbps 1 1ms 100
+leaf-12908	bb-lip6 1000Mbps 1 1ms 100
+leaf-12731	bb-lip6 1000Mbps 1 1ms 100
+bb-systemx bb-lip6 100Mbps 1 1ms 100
+leaf-22986 bb-systemx 1000Mbps 1 1ms 100
+leaf-22987 bb-systemx 1000Mbps 1 1ms 100
+leaf-23056 bb-systemx 1000Mbps 1 1ms 100
+leaf-23007 bb-systemx 1000Mbps 1 1ms 100
+leaf-23017 bb-systemx 1000Mbps 1 1ms 100
+leaf-23023 bb-systemx 1000Mbps 1 1ms 100
+leaf-23032 bb-systemx 1000Mbps 1 1ms 100
+leaf-23063 bb-systemx 1000Mbps 1 1ms 100
+leaf-23066 bb-systemx 1000Mbps 1 1ms 100
+leaf-23062 bb-systemx 1000Mbps 1 1ms 100
+bb-memphis bb-michigan 100Mbps 1 12ms 100
+bb-memphis bb-uaslp 100Mbps 1 100ms 100
+bb-memphis bb-wu 100Mbps 1 17ms 100
+bb-memphis bb-ufpa 100Mbps 1 115ms 100
+bb-memphis bb-neu 100Mbps 1 21ms 100
+leaf-12734	bb-memphis 1000Mbps 1 1ms 100
+leaf-12741	bb-memphis 1000Mbps 1 1ms 100
+leaf-12743	bb-memphis 1000Mbps 1 1ms 100
+leaf-12738	bb-memphis 1000Mbps 1 1ms 100
+leaf-12740	bb-memphis 1000Mbps 1 1ms 100
+leaf-12739	bb-memphis 1000Mbps 1 1ms 100
+leaf-12746	bb-memphis 1000Mbps 1 1ms 100
+leaf-12919	bb-memphis 1000Mbps 1 1ms 100
+leaf-12742	bb-memphis 1000Mbps 1 1ms 100
+leaf-12747	bb-memphis 1000Mbps 1 1ms 100
+bb-michigan bb-uiuc 100Mbps 1 5ms 100
+bb-michigan bb-neu 100Mbps 1 14ms 100
+bb-michigan bb-nist 100Mbps 1 13ms 100
+leaf-12744	bb-michigan 1000Mbps 1 1ms 100
+leaf-12745	bb-michigan 1000Mbps 1 1ms 100
+leaf-12748	bb-michigan 1000Mbps 1 1ms 100
+leaf-12763	bb-michigan 1000Mbps 1 1ms 100
+leaf-12773	bb-michigan 1000Mbps 1 1ms 100
+leaf-12951	bb-michigan 1000Mbps 1 1ms 100
+leaf-13057	bb-michigan 1000Mbps 1 1ms 100
+leaf-12762	bb-michigan 1000Mbps 1 1ms 100
+leaf-12960	bb-michigan 1000Mbps 1 1ms 100
+leaf-12777	bb-michigan 1000Mbps 1 1ms 100
+bb-minho bb-urjc 100Mbps 1 13ms 100
+bb-minho bb-padua 100Mbps 1 26ms 100
+leaf-13112	bb-minho 1000Mbps 1 1ms 100
+leaf-12782	bb-minho 1000Mbps 1 1ms 100
+leaf-12775	bb-minho 1000Mbps 1 1ms 100
+leaf-12774	bb-minho 1000Mbps 1 1ms 100
+leaf-13116	bb-minho 1000Mbps 1 1ms 100
+leaf-12781	bb-minho 1000Mbps 1 1ms 100
+leaf-13113	bb-minho 1000Mbps 1 1ms 100
+leaf-12824	bb-minho 1000Mbps 1 1ms 100
+leaf-12878	bb-minho 1000Mbps 1 1ms 100
+leaf-12828	bb-minho 1000Mbps 1 1ms 100
+bb-msu bb-pkusz 100Mbps 1 71ms 100
+bb-msu bb-srru 100Mbps 1 3ms 100
+bb-msu bb-ucla 100Mbps 1 150ms 100
+bb-msu bb-uum 100Mbps 1 100ms 100
+bb-msu bb-tno 100Mbps 1 120ms 100
+leaf-12853	bb-msu 1000Mbps 1 1ms 100
+leaf-12852	bb-msu 1000Mbps 1 1ms 100
+leaf-12883	bb-msu 1000Mbps 1 1ms 100
+leaf-12892	bb-msu 1000Mbps 1 1ms 100
+leaf-12882	bb-msu 1000Mbps 1 1ms 100
+leaf-12862	bb-msu 1000Mbps 1 1ms 100
+leaf-12889	bb-msu 1000Mbps 1 1ms 100
+leaf-12890	bb-msu 1000Mbps 1 1ms 100
+leaf-12893	bb-msu 1000Mbps 1 1ms 100
+leaf-12895	bb-msu 1000Mbps 1 1ms 100
+bb-mumbai_aws bb-uum 100Mbps 1 100ms 100
+leaf-12891	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12902	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12903	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12894	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12896	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12897	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12898	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12899	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12900	bb-mumbai_aws 1000Mbps 1 1ms 100
+leaf-12901	bb-mumbai_aws 1000Mbps 1 1ms 100
+bb-uum bb-mumbai_aws 100Mbps 1 100ms 100
+leaf-43107	bb-uum 1000Mbps 1 1ms 100
+leaf-43109	bb-uum 1000Mbps 1 1ms 100
+leaf-43111	bb-uum 1000Mbps 1 1ms 100
+leaf-43108	bb-uum 1000Mbps 1 1ms 100
+leaf-43119	bb-uum 1000Mbps 1 1ms 100
+leaf-43140	bb-uum 1000Mbps 1 1ms 100
+leaf-43142	bb-uum 1000Mbps 1 1ms 100
+leaf-43143	bb-uum 1000Mbps 1 1ms 100
+leaf-43144	bb-uum 1000Mbps 1 1ms 100
+leaf-43141	bb-uum 1000Mbps 1 1ms 100
+bb-neu bb-ntnu 100Mbps 1 69ms 100
+bb-neu bb-nist 100Mbps 1 12ms 100
+leaf-12917	bb-neu 1000Mbps 1 1ms 100
+leaf-12916	bb-neu 1000Mbps 1 1ms 100
+leaf-12915	bb-neu 1000Mbps 1 1ms 100
+leaf-12911	bb-neu 1000Mbps 1 1ms 100
+leaf-13083	bb-neu 1000Mbps 1 1ms 100
+leaf-13084	bb-neu 1000Mbps 1 1ms 100
+leaf-13085	bb-neu 1000Mbps 1 1ms 100
+leaf-13089	bb-neu 1000Mbps 1 1ms 100
+leaf-12924	bb-neu 1000Mbps 1 1ms 100
+leaf-12925	bb-neu 1000Mbps 1 1ms 100
+bb-nist bb-uiuc 100Mbps 1 12ms 100
+leaf-12927	bb-nist 1000Mbps 1 1ms 100
+leaf-12933	bb-nist 1000Mbps 1 1ms 100
+leaf-12934	bb-nist 1000Mbps 1 1ms 100
+leaf-13087	bb-nist 1000Mbps 1 1ms 100
+leaf-13088	bb-nist 1000Mbps 1 1ms 100
+leaf-12923	bb-nist 1000Mbps 1 1ms 100
+leaf-12930	bb-nist 1000Mbps 1 1ms 100
+leaf-12938	bb-nist 1000Mbps 1 1ms 100
+leaf-12929	bb-nist 1000Mbps 1 1ms 100
+leaf-12926	bb-nist 1000Mbps 1 1ms 100
+bb-ntnu bb-systemx 100Mbps 1 24ms 100
+leaf-13081	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12939	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12943	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12955	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12956	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12957	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12958	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12964	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12959	bb-ntnu 1000Mbps 1 1ms 100
+leaf-12962	bb-ntnu 1000Mbps 1 1ms 100
+bb-osaka bb-pkusz 100Mbps 1 63ms 100
+bb-osaka bb-waseda 100Mbps 1 5ms 100
+bb-osaka bb-srru 100Mbps 1 67ms 100
+bb-osaka bb-tongji 100Mbps 1 63ms 100
+bb-osaka bb-uum 100Mbps 1 100ms 100
+leaf-12968	bb-osaka 1000Mbps 1 1ms 100
+leaf-12970	bb-osaka 1000Mbps 1 1ms 100
+leaf-12972	bb-osaka 1000Mbps 1 1ms 100
+leaf-12978	bb-osaka 1000Mbps 1 1ms 100
+leaf-12980	bb-osaka 1000Mbps 1 1ms 100
+leaf-12982	bb-osaka 1000Mbps 1 1ms 100
+leaf-12986	bb-osaka 1000Mbps 1 1ms 100
+leaf-12987	bb-osaka 1000Mbps 1 1ms 100
+leaf-13056	bb-osaka 1000Mbps 1 1ms 100
+leaf-13007	bb-osaka 1000Mbps 1 1ms 100
+bb-padua bb-urjc 100Mbps 1 15ms 100
+bb-padua bb-pkusz 100Mbps 1 170ms 100
+bb-padua bb-uiuc 100Mbps 1 80ms 100
+leaf-13017	bb-padua 1000Mbps 1 1ms 100
+leaf-13023	bb-padua 1000Mbps 1 1ms 100
+leaf-13032	bb-padua 1000Mbps 1 1ms 100
+leaf-13063	bb-padua 1000Mbps 1 1ms 100
+leaf-13066	bb-padua 1000Mbps 1 1ms 100
+leaf-13062	bb-padua 1000Mbps 1 1ms 100
+leaf-13061	bb-padua 1000Mbps 1 1ms 100
+leaf-13064	bb-padua 1000Mbps 1 1ms 100
+leaf-13065	bb-padua 1000Mbps 1 1ms 100
+leaf-13067	bb-padua 1000Mbps 1 1ms 100
+bb-pkusz bb-tongji 100Mbps 1 54ms 100
+bb-pkusz bb-srru 100Mbps 1 71ms 100
+bb-pkusz bb-waseda 100Mbps 1 98ms 100
+leaf-13068	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13070	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13069	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13094	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13093	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13079	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13095	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13097	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13098	bb-pkusz 1000Mbps 1 1ms 100
+leaf-13103	bb-pkusz 1000Mbps 1 1ms 100
+bb-remap bb-ucla 100Mbps 1 1ms 100
+bb-remap bb-uci 100Mbps 1 1ms 100
+leaf-13104	bb-remap 1000Mbps 1 1ms 100
+leaf-13102	bb-remap 1000Mbps 1 1ms 100
+leaf-13101	bb-remap 1000Mbps 1 1ms 100
+leaf-13100	bb-remap 1000Mbps 1 1ms 100
+leaf-13105	bb-remap 1000Mbps 1 1ms 100
+leaf-13106	bb-remap 1000Mbps 1 1ms 100
+leaf-13107	bb-remap 1000Mbps 1 1ms 100
+leaf-13109	bb-remap 1000Mbps 1 1ms 100
+leaf-13111	bb-remap 1000Mbps 1 1ms 100
+leaf-13108	bb-remap 1000Mbps 1 1ms 100
+bb-ucla bb-remap 100Mbps 1 1ms 100
+leaf-33095	bb-ucla 1000Mbps 1 1ms 100
+leaf-33097	bb-ucla 1000Mbps 1 1ms 100
+leaf-33098	bb-ucla 1000Mbps 1 1ms 100
+leaf-33103	bb-ucla 1000Mbps 1 1ms 100
+leaf-33104	bb-ucla 1000Mbps 1 1ms 100
+leaf-33102	bb-ucla 1000Mbps 1 1ms 100
+leaf-33101	bb-ucla 1000Mbps 1 1ms 100
+leaf-33100	bb-ucla 1000Mbps 1 1ms 100
+leaf-33105	bb-ucla 1000Mbps 1 1ms 100
+leaf-33106	bb-ucla 1000Mbps 1 1ms 100
+bb-srru bb-uum 100Mbps 1 100ms 100
+leaf-13119	bb-srru 1000Mbps 1 1ms 100
+leaf-13140	bb-srru 1000Mbps 1 1ms 100
+leaf-13142	bb-srru 1000Mbps 1 1ms 100
+leaf-13143	bb-srru 1000Mbps 1 1ms 100
+leaf-13144	bb-srru 1000Mbps 1 1ms 100
+leaf-13141	bb-srru 1000Mbps 1 1ms 100
+leaf-22972	bb-srru 1000Mbps 1 1ms 100
+leaf-22978	bb-srru 1000Mbps 1 1ms 100
+leaf-22980	bb-srru 1000Mbps 1 1ms 100
+leaf-22982	bb-srru 1000Mbps 1 1ms 100
+bb-tongji bb-waseda 100Mbps 1 98ms 100
+leaf-23095	bb-tongji 1000Mbps 1 1ms 100
+leaf-23097	bb-tongji 1000Mbps 1 1ms 100
+leaf-23098	bb-tongji 1000Mbps 1 1ms 100
+leaf-23103	bb-tongji 1000Mbps 1 1ms 100
+leaf-23104	bb-tongji 1000Mbps 1 1ms 100
+leaf-23102	bb-tongji 1000Mbps 1 1ms 100
+leaf-23101	bb-tongji 1000Mbps 1 1ms 100
+leaf-23100	bb-tongji 1000Mbps 1 1ms 100
+leaf-23105	bb-tongji 1000Mbps 1 1ms 100
+leaf-23106	bb-tongji 1000Mbps 1 1ms 100
+bb-uaslp bb-ufpa 100Mbps 1 100ms 100
+leaf-23107	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23109	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23111	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23108	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23119	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23140	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23142	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23143	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23144	bb-uaslp 1000Mbps 1 1ms 100
+leaf-23141	bb-uaslp 1000Mbps 1 1ms 100
+bb-uci bb-ucla 100Mbps 1 1ms 100
+leaf-33061	bb-uci 1000Mbps 1 1ms 100
+leaf-33064	bb-uci 1000Mbps 1 1ms 100
+leaf-33065	bb-uci 1000Mbps 1 1ms 100
+leaf-33067	bb-uci 1000Mbps 1 1ms 100
+leaf-33068	bb-uci 1000Mbps 1 1ms 100
+leaf-33070	bb-uci 1000Mbps 1 1ms 100
+leaf-33069	bb-uci 1000Mbps 1 1ms 100
+leaf-33094	bb-uci 1000Mbps 1 1ms 100
+leaf-33093	bb-uci 1000Mbps 1 1ms 100
+leaf-33079	bb-uci 1000Mbps 1 1ms 100
+bb-uiuc bb-wu 100Mbps 1 9ms 100
+leaf-43061	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43064	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43065	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43067	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43068	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43070	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43069	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43094	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43093	bb-uiuc 1000Mbps 1 1ms 100
+leaf-43079	bb-uiuc 1000Mbps 1 1ms 100
+bb-wu bb-uiuc 100Mbps 1 9ms 100
+leaf-62972	bb-wu 1000Mbps 1 1ms 100
+leaf-62978	bb-wu 1000Mbps 1 1ms 100
+leaf-62980	bb-wu 1000Mbps 1 1ms 100
+leaf-62982	bb-wu 1000Mbps 1 1ms 100
+leaf-62986	bb-wu 1000Mbps 1 1ms 100
+leaf-62987	bb-wu 1000Mbps 1 1ms 100
+leaf-63056	bb-wu 1000Mbps 1 1ms 100
+leaf-63007	bb-wu 1000Mbps 1 1ms 100
+leaf-63017	bb-wu 1000Mbps 1 1ms 100
+leaf-63023	bb-wu 1000Mbps 1 1ms 100
+bb-urjc bb-wu 100Mbps 1 86ms 100
+leaf-43095	bb-urjc 1000Mbps 1 1ms 100
+leaf-43097	bb-urjc 1000Mbps 1 1ms 100
+leaf-43098	bb-urjc 1000Mbps 1 1ms 100
+leaf-43103	bb-urjc 1000Mbps 1 1ms 100
+leaf-43104	bb-urjc 1000Mbps 1 1ms 100
+leaf-43102	bb-urjc 1000Mbps 1 1ms 100
+leaf-43101	bb-urjc 1000Mbps 1 1ms 100
+leaf-43100	bb-urjc 1000Mbps 1 1ms 100
+leaf-43105	bb-urjc 1000Mbps 1 1ms 100
+leaf-43106	bb-urjc 1000Mbps 1 1ms 100

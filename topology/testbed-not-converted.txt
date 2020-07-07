@@ -1,0 +1,176 @@
+#current test-bed topology for ndnSIM, converted by Ertugrul DOGRULUK, university of minho
+
+router
+
+#node comment yPos xPos
+
+afa NA  10.3354428445  1.12640207075
+anyang NA  14.3378634978  2.99956859362
+arizona NA  16.2305391314  2.97033285094
+basel NA  13.2717666497  2.41932
+bern NA  13.2717666497  2.42933
+bupt  NA  29.2553552716  3.07635893011
+byu  NA  19.3538454318  3.77334112453
+cagliari  NA  13.5903793307  1.1403443
+caida  NA  17.6030443241  2.94302721088
+caruna  NA  13.6888312672  1.172
+cnic  NA  13.0513265591  2.87446074202
+copelabs  NA  16.206035855  2.62082
+csu  NA  14.1056931988  2.99266609146
+goettingen  NA  12.2349274272  2.4715271786
+indonesia  NA  29.2553552716  2.75021570319
+kisti  NA  11.5531281288  2.98403796376
+lip6  NA  29.2553552716  2.62295081967
+memphis  NA  15.264773513  2.98360655738
+michigan  NA  17.7738038607  2.98018269082
+minho  NA  16.206035855  2.631
+msu  NA  19.6533436173  3.64135462555
+mumbai_aws  NA  12.8934676597  2.95081967213
+neu  NA  19.9001283692  2.13894230769
+nist  NA  13.4257788269  2.97670405522
+ntnu  NA  12.0281644432  3.11561691113
+osaka  NA  19.3573834399  3.53687143598
+padua  NA  13.5903793307  1.1393442623
+pkusz  NA  11.1495655496  2.87016
+remap  NA  16.5866430024  2.99811
+srru  NA  12.8769009681  3.63761863676
+systemx  NA  19.1697680538  2.62274588692
+tno  NA  12.0148443703  2.4603106126
+tongji  NA  11.1495655496  2.87015
+uaslp  NA  19.0473935894  2.96488127257
+uci  NA  19.2697694366  2.94186046512
+ucla  NA  16.5866430024  2.999107674
+ufpa  NA  29.2553552716  3.51898188093
+uiuc  NA  29.2553552716  2.98231233822
+urjc  NA  13.6888312672  1.17169974116
+uum  NA  14.8351249127  3.44434857636
+waseda  NA  19.3583257472  2.99935233161
+wu  NA  19.4268485719  4.31067173954
+
+link
+# Each line should be in the following format (only first two are required, the rest can be omitted)
+# srcNode   dstNode     bandwidth   metric  delay   queue
+# bandwidth: link bandwidth
+# metric: routing metric
+# delay:  link delay
+# queue:  MaxPackets for transmission queue on the link (both directions)
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+
+afa mumbai_aws 100Mbps 1 100ms 100 
+afa bern 100Mbps 1 15ms 100
+afa cagliari 100Mbps 1 25ms 100
+afa padua 100Mbps 1 11ms 100
+afa copelabs 100Mbps 1 36ms 100
+anyang tongji 100Mbps 1 54ms 100
+anyang srru 100Mbps 1 57ms 100
+anyang msu 100Mbps 1 70ms 100
+anyang bupt 100Mbps 1 33ms 100
+anyang kisti 100Mbps 1 40ms 100
+anyang waseda 100Mbps 1 40ms 100
+anyang osaka 100Mbps 1 36ms 100
+arizona caida 100Mbps 1 25ms 100
+arizona remap 100Mbps 1 25ms 100
+arizona waseda 100Mbps 1 75ms 100
+arizona byu 100Mbps 1 30ms 100
+arizona uaslp 100Mbps 1 100ms 100
+arizona wu 100Mbps 1 33ms 100
+arizona csu 100Mbps 1 18ms 100
+arizona memphis 100Mbps 1 17ms 100
+basel urjc 100Mbps 1 14ms 100
+basel minho 100Mbps 1 23ms 100
+basel ntnu 100Mbps 1 30ms 100
+basel padua 100Mbps 1 9ms 100
+basel lip6 100Mbps 1 7ms 100
+basel goettingen 100Mbps 1 10ms 100
+basel bern 100Mbps 1 2ms 100
+basel tno 100Mbps 1 14ms 100
+basel systemx 100Mbps 1 9ms 100
+bern lip6 100Mbps 1 18ms 100
+bupt pkusz 100Mbps 1 54ms 100
+bupt waseda 100Mbps 1 48ms 100
+bupt tongji 100Mbps 1 18ms 100
+bupt srru 100Mbps 1 72ms 100
+bupt indonesia 100Mbps 1 54ms 100
+bupt kisti 100Mbps 1 33ms 100
+bupt cnic 100Mbps 1 10ms 100
+byu csu 100Mbps 1 8ms 100
+byu remap 100Mbps 1 9ms 100
+cagliari urjc 100Mbps 1 28ms 100
+cagliari caruna 100Mbps 1 40ms 100
+cagliari padua 100Mbps 1 25ms 100
+cagliari wu 100Mbps 1 100ms 100
+caida ufpa 100Mbps 1 155ms 100
+caida ucla 100Mbps 1 3ms 100
+caida uci 100Mbps 1 3ms 100
+caida tongji 100Mbps 1 93ms 100
+caruna urjc 100Mbps 1 17ms 100
+caruna minho 100Mbps 1 27ms 100
+cnic pkusz 100Mbps 1 20ms 100
+cnic osaka 100Mbps 1 45ms 100
+copelabs urjc 100Mbps 1 13ms 100
+copelabs minho 100Mbps 1 4ms 100
+copelabs padua 100Mbps 1 24ms 100
+copelabs lip6 100Mbps 1 22ms 100
+copelabs ufpa 100Mbps 1 145ms 100
+csu remap 100Mbps 1 16ms 100
+csu kisti 100Mbps 1 106ms 100
+csu michigan 100Mbps 1 15ms 100
+csu ucla 100Mbps 1 16ms 100
+csu uiuc 100Mbps 1 14ms 100
+goettingen osaka 100Mbps 1 136ms 100
+goettingen ntnu 100Mbps 1 40ms 100
+goettingen padua 100Mbps 1 14ms 100
+goettingen tno 100Mbps 1 12ms 100
+goettingen systemx 100Mbps 1 10ms 100
+indonesia waseda 100Mbps 1 49ms 100
+indonesia tongji 100Mbps 1 61ms 100
+indonesia srru 100Mbps 1 32ms 100
+indonesia uum 100Mbps 1 100ms 100
+indonesia kisti 100Mbps 1 150ms 100
+indonesia ufpa 100Mbps 1 200ms 100
+kisti waseda 100Mbps 1 39ms 100
+lip6 urjc 100Mbps 1 15ms 100
+lip6 michigan 100Mbps 1 69ms 100
+lip6 ntnu 100Mbps 1 25ms 100
+lip6 tno 100Mbps 1 9ms 100
+lip6 systemx 100Mbps 1 1ms 100
+memphis michigan 100Mbps 1 12ms 100
+memphis uaslp 100Mbps 1 100ms 100
+memphis wu 100Mbps 1 17ms 100
+memphis ufpa 100Mbps 1 115ms 100
+memphis neu 100Mbps 1 21ms 100
+michigan uiuc 100Mbps 1 5ms 100
+michigan neu 100Mbps 1 14ms 100
+michigan nist 100Mbps 1 13ms 100
+minho urjc 100Mbps 1 13ms 100
+minho padua 100Mbps 1 26ms 100
+msu pkusz 100Mbps 1 71ms 100
+msu srru 100Mbps 1 3ms 100
+msu ucla 100Mbps 1 150ms 100
+msu uum 100Mbps 1 100ms 100
+msu tno 100Mbps 1 120ms 100
+mumbai_aws uum 100Mbps 1 100ms 100
+neu ntnu 100Mbps 1 69ms 100
+neu nist 100Mbps 1 12ms 100
+nist uiuc 100Mbps 1 12ms 100
+ntnu systemx 100Mbps 1 24ms 100
+osaka pkusz 100Mbps 1 63ms 100
+osaka waseda 100Mbps 1 5ms 100
+osaka srru 100Mbps 1 67ms 100
+osaka tongji 100Mbps 1 63ms 100
+osaka uum 100Mbps 1 100ms 100
+padua urjc 100Mbps 1 15ms 100
+padua pkusz 100Mbps 1 170ms 100
+padua uiuc 100Mbps 1 80ms 100
+pkusz tongji 100Mbps 1 54ms 100
+pkusz srru 100Mbps 1 71ms 100
+pkusz waseda 100Mbps 1 98ms 100
+remap ucla 100Mbps 1 1ms 100
+remap uci 100Mbps 1 1ms 100
+srru uum 100Mbps 1 100ms 100
+tongji waseda 100Mbps 1 98ms 100
+uaslp ufpa 100Mbps 1 100ms 100
+uci ucla 100Mbps 1 1ms 100
+uiuc wu 100Mbps 1 9ms 100
+urjc wu 100Mbps 1 86ms 100

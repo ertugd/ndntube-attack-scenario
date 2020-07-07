@@ -1,0 +1,21 @@
+router
+#node	city	latitude	longitude	partition
+bb-producer	NA	1	10	0
+bb-2	NA	20	10	0
+bb-3	NA	40	10	0
+gw-1	NA	60	20	1
+gw-2	NA	60	0	2
+leaf-1	NA	80	40	1
+leaf-2	NA	80	20	3
+leaf-3	NA	80	0	2
+leaf-4	NA	80	-20	4
+link
+# from		to			capacity	metric	delay	queue
+bb-producer  bb-2		100Mbps		1		10ms		100
+bb-2	bb-3		100Mbps		1		10ms		100
+bb-3	gw-1	100Mbps		1		10ms		100
+bb-3	gw-2	100Mbps		1		10ms		100
+gw-1	leaf-1		100Mbps		1		10ms		100
+gw-1	leaf-2		100Mbps		1		10ms		100
+gw-2	leaf-3		100Mbps		1		10ms		100
+gw-2	leaf-4		100Mbps		1		10ms		100

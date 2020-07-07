@@ -1,0 +1,16 @@
+router
+
+#node	city	y	x	mpi-partition
+callee	NA	80	20	1
+caller	NA	60	20	1
+rtr-1	NA	70	40	15
+ndn-CA	NA	70	50	15
+
+link
+
+# from	   	     to		capacity	metric	delay	queue
+callee  	    rtr-1	1000Mbps		1	1ms	100
+caller		    rtr-1	1000Mbps		1	1ms	100
+ndn-CA		    rtr-1	1000Mbps		1	1ms	100
+
+
