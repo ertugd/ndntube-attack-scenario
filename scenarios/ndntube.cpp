@@ -13,7 +13,7 @@
 Copyright (c) 2019, Algorithmi Research Centree, University of Minho, Portugal
 
 
- * Authors: Ertugrul Dogruluk <d7474@di.uminho.pt>, Department of #Informatics
+ * Authors: Ertugrul Dogruluk <d7474@di.uminho.pt>, Department of #Informatics. Portugal.
 
 **/
 
