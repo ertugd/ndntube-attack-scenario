@@ -326,7 +326,7 @@ main(int argc, char* argv[])
   AppHelper producerHelper ("ns3::ndn::Producer");
   producerHelper.SetPrefix ("/ndntube/videos");
   producerHelper.SetAttribute ("PayloadSize", StringValue("1024"));
-  producerHelper.SetAttribute("Freshness", StringValue("100ms"));
+  producerHelper.SetAttribute("Freshness", StringValue("1000ms"));
   for (set<Ptr<Node>>::iterator node = producers.begin(); node != producers.end(); node++) {
 		ApplicationContainer producerApp;
 		ndnGlobalRoutingHelper.AddOrigins ("/", *node);
